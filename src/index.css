@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan:wght@900|Nunito+Sans:300,600,800|Concert+One&display=swap");
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  background-color: #effafa;
+  animation: FadeIn 500ms;
+  transition: 200ms;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+#root{
+  width: 100%;
+  height: 100VH;
+}
